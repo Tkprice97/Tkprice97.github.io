@@ -1,34 +1,39 @@
+.bodyclass {
+    margin: 0px;
+}
 
-.ul {
+.navigate {
     display: flex;
     justify-content: space-between;
-    color: rgb(180, 18, 18);
-    text-decoration-color: azure;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
     position: relative, z-index 2;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+    margin: 10px 0px 10px 0px;
+
+    padding-top: 3px 0px 3px 0px;
+
+    border: solid;
+    border-color: #000;
+    border-width: 3px;
+    border-right: 0px;
+    border-left: 0px;
+   }
+    body {
+        background-color: rgb(255, 255, 255);
+      }
+
+
 .clhome {
     margin-left: 10%;
 }
-.clsupplies {
+.clarmor {
     margin-right: 10%;
 }
 
-.uldiv {
-    top: 300px;
-    position: relative, z-index 1;
-
-}
-.woodimg {
-    Width:130px;
-    position:absolute;
-    
-}
 .clhome,
 .clweapons,
 .clmagic,
-.clsupplies
+.clarmor
 {
     display: inline;
     font-size: 25px;
@@ -36,9 +41,6 @@
     font-weight: bold;
 }
 
-.hr1 {
-    font-size: 40px;
-}
 .overlay {
   position: relative;
   width: 100%;
@@ -141,74 +143,14 @@ border-width: 2px;
 .playbutton:hover {
     background-color: rgb(225, 225, 225);
 }
-.hr1,
+
 .hr2 {
     border-top: 3px solid black;
     border-radius: 50px;
     }
-.hr1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-.typegrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 600px;
-    column-gap: 7px;
-    row-gap: 7px;
-    margin-top: 7px;
-    margin-bottom: 15px;
-}
-.divphysical,
-.divmagical,
-.divutility,
-.divsupplies {
-    display: grid;
-    grid-template-rows: 40px 75px 175px;
-    border: rgb(105, 0, 0);
-    border-width: 5px;
-    border-style: inset;
-    background: linear-gradient(#e94848, #dde0ff);
-    color: #fff; 
- }
-.hphysical,
-.hmagical,
-.hutility,
-.hsupplies {
-    font-weight: bold;
-    text-align: center;
-    font-size: 25px;
-    font-style:italic;
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-.pphysical,
-.pmagical,
-.putility,
-.psupplies {
-    margin-top: 5px;
-    margin-bottom: 0px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 0px;
-}
-.physicalimg,
-.magicimg,
-.potionimg {
-    position: relative;
-    max-height: 100%; 
-    width: 60%;
-    display: inline-block;
-    top: 0%;
-    left: 20%;
-    border-radius: 6px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, .7);
-}
+
 .hr3 { 
     border-top: 2px solid black;
     border-radius: 50px;
 }
-
-
-
 
