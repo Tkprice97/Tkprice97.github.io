@@ -1,0 +1,83 @@
+.typegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80%;
+    column-gap: .70%;
+    row-gap: 1.25%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.divweaponry,
+.divutility {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border: rgb(105, 0, 0);
+    border-width: 5px;
+    border-style: inset;
+    background-image: linear-gradient(-45deg, #770000, #a71c1c, #1987af, #09005e);
+    color: rgb(31, 10, 10); 
+    background-size: 300% 300%;
+    animation: gradient 15s ease infinite;
+ }
+
+ @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.divmagic,
+.divarmor {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border: rgb(105, 0, 0);
+    border-width: 5px;
+    border-style: inset;
+    background-image: linear-gradient(45deg, #770000, #a71c1c, #1987af, #09005e);
+    color: rgb(31, 10, 10);
+    color: rgb(31, 10, 10); 
+    background-size: 300% 300%;
+    animation: gradient 15s ease infinite;
+ }
+
+.hweaponry,
+.hmagic,
+.hutility,
+.harmor {
+    font-weight: bold;
+    text-align: center;
+    font-size: 135%;
+    font-style: italic;
+    margin-top: 3%;
+}
+.pweaponry,
+.pmagic,
+.putility,
+.parmor {
+    margin: 3%;
+    font-size: 100%;
+}
+
+.weaponryjpg,
+.magicjpg,
+.potionjpg,
+.armorjpg {
+    position: relative;
+    left: 10%;
+    top: 7%;
+    display: block;
+    width: 80%;
+    height: 74%;
+    bottom: 5%;
+    object-fit: cover;
+    border-radius: 1%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .7);
+}
